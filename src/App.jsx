@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "./components/Profile";
 import Product from "./components/Product";
+import Counter from "./components/Counter";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 description="The best electric whisk to mix things, even Mars bars"
                 price={50}
             />
+            <Counter />
         </>
     );
 }
